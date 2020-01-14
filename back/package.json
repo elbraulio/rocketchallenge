@@ -5,7 +5,7 @@
   "main": "src/app/bin/www.ts",
   "scripts": {
     "tsc": "tsc",
-    "back": "nodemon build/app/index.js",
+    "back": "nodemon ./build/app/bin/www.js",
     "dev": "npm run tsc && npm run back",
     "test": "tsc && jest"
   },
