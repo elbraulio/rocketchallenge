@@ -1,0 +1,9 @@
+# idea files
+.idea
+*.iml
+
+# modules
+back/node_modules
+back/build
+
+front/node_modules

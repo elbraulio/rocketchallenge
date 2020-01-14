@@ -1,0 +1,10 @@
+{
+  "name": "rocketchallenge",
+  "version": "1.0.0",
+  "description": "Contains Back and Front",
+  "scripts": {
+    "start": "npm run tsc --prefix ./back && npm run back --prefix ./back & npm start --prefix ./front",
+    "install": "npm install --prefix ./back",
+    "test": "npm test --prefix ./back"
+  }
+}
